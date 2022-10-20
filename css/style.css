@@ -1,0 +1,251 @@
+* {    
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  :root{
+    --primary: hsl(322, 100%, 66%);
+    --secundary: hsl(191, 95%, 9%);
+    --tertiary:  hsl(208, 11%, 55%);
+  }
+
+
+/*presentation header*/
+
+#presentation{
+          
+    background: linear-gradient(rgba(185, 241, 248, 0.8), rgba(190, 186, 233, 0.8));
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;    
+    
+}
+
+#presentation h1 {
+    font-family: open sans;
+    color:var(--secundary);    
+    font-size:32px;
+    line-height: 1.5em;
+    margin-bottom: 30px;   
+    
+}
+
+.description p{
+    font-family: open sans;    
+    color:var(--secundary);
+    font-size:20px;
+}
+
+.description, .huddle-logo{
+    max-width: 550px;
+    margin-left: 20px;
+    
+}
+
+.description-2 img {
+    
+    width: 77%;
+    margin-right: 50px;
+   
+}
+
+.huddle-logo img{
+    margin-left: 50px;    
+    margin-top: 5px;
+    width: 40%;    
+
+}
+
+.description, .description-2{
+    padding: 40px;
+    width: 90%;
+}
+
+ .description .btn, #cta .btn {
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 25px;
+    padding: 20px;   
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 60%;
+    font-weight: bold;
+    font-size: small;
+    font-family: open sans;
+    font-size: 15px;
+        
+}
+
+.description-2 .btn{
+    border-radius: 25px ;
+    font-family: open sans;
+    background-color: #fff;
+    color: var(--tertiary);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border: .2px solid rgb(236, 236, 236);
+    box-shadow: rgb(184, 182, 182) 2px 2px 2px;
+       
+}
+
+ .description .btn:hover{
+   
+    background-color: rgb(216, 242, 247);
+    transition: .5s;   
+}
+
+.description-2 .btn:hover{
+   
+    background-color: #eee;
+    transition: .5s;  
+}
+
+
+.description-2{
+    text-align: end;
+}
+
+/*Benefits*/
+ h2{
+    margin-top: 3%;
+    margin-left: 5%;
+    color: var(--secundary);
+    font-family: open sans;
+    font-weight: bold; 
+    text-align: center;
+       
+    
+}
+
+.benefits p{
+    color:var(--tertiary);
+    font-family: poppins; 
+    padding: 10px;     
+    width: 40%;
+    margin-left: 35%;
+    font-size:larger;
+    text-align: center;  
+           
+}
+
+
+.benefits{
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    padding :10px;
+    width: 90%;
+    height: 40%;
+    margin-left: 4%; 
+    margin-top: 5%;      
+   
+   
+}
+
+.benefits  img{
+    width: 25%; 
+    margin-left: 15%;
+              
+}
+
+#the-benefits{
+    padding: 1%;
+}
+
+/* call to action*/
+
+ #cta .btn {
+    width: 50%;
+    margin-top: 1%;            
+}
+
+#cta .btn:hover{
+    background-color:  rgb(240, 17, 192);
+    transition: 0.5s;
+}
+ 
+#cta{
+    background: rgb(255, 255, 255);
+    width: 60%;
+    height: 40vh;    
+    text-align: center;    
+    margin-left: 21%;
+    margin-top: 8%;
+    border-radius:25px ;
+    position: absolute;   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+h3{
+    padding: 6%;    
+    font-size: 30px;
+    font-family: open sans;
+    color:var(--secundary)
+}
+
+/*rodapé*/
+#footer{
+    background: var(--secundary);
+    height: 57vh;
+    margin-top: 20%;
+    font-size: small;
+    color: #eee;
+    font-family: open sans;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.socialmedia i {
+    margin-left: 10px;
+    margin-bottom: 10px;    
+    
+}
+
+.location i{
+    margin-bottom: 10px;
+}
+
+.FAQ{
+    text-decoration: none;
+}
+
+
+
+i:hover{
+    color: var(--primary);
+}
+
+i{
+    font-size: 1.5em;
+}
+
+a { 
+color: inherit;
+
+} 
+
+a:hover{
+    text-decoration: underline;   
+}
+
+.location img{    
+    width:15px;
+    margin-right:10px;        
+}
+
+.copyright{
+    margin-top: 25%;    
+
+}
+
